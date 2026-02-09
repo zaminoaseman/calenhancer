@@ -1,0 +1,23 @@
+{
+    "name": "calenhancer",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "Enhance SRH student calendar subscriptions with better addresses and titles",
+    "main": "src/index.js",
+    "scripts": {
+        "dev": "wrangler dev",
+        "deploy": "wrangler deploy",
+        "test": "node test-enhancement.js"
+    },
+    "keywords": [
+        "calendar",
+        "ical",
+        "srh",
+        "cloudflare-workers"
+    ],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "wrangler": "^4.63.0"
+    }
+}
